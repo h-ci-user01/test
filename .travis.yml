@@ -1,0 +1,13 @@
+language: python
+
+python:
+ - 2.7
+
+script:
+  - python helloworld.py
+
+after_success:
+  - coveralls
+
+notifications:
+    slack: dev-weko3:4z5R67svHYtxSBd3o6dsZHrT
