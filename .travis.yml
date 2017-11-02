@@ -9,5 +9,8 @@ script:
 after_success:
   - coveralls
 
-notifications:
-    slack: dev-weko3:4z5R67svHYtxSBd3o6dsZHrT
+tifications:
+  slack:
+    rooms:
+      - h-itg-dev:4z5R67svHYtxSBd3o6dsZHrT#dev-weko3
+
