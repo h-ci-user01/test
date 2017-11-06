@@ -8,7 +8,7 @@ script:
 
 after_success:
   - coveralls
-  - echo "テスト終了"
+  - echo "テスト終了!"
 
 
 notifications:
