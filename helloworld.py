@@ -1,4 +1,4 @@
 # coding: utf-8
 print "Hello woarld!!!"
-print "konにちは　世界！！!"
+hogehogeprintf "konにちは　世界！！!"
 
