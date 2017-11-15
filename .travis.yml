@@ -9,7 +9,10 @@ script:
 after_success:
   - coveralls
   - echo "テスト終了!"
-  webhooks:
-      - http://13.114.123.10:8080/webhook
 
+notifications:
+    slack: h-itg-dev:4z5R67svHYtxSBd3o6dsZHrT
+    webhooks:
+        - http://13.114.123.10:8080/webhook
+        on_failure: never
 
