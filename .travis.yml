@@ -7,7 +7,6 @@ script:
   - python helloworld.py
 
 after_success:
-  - coveralls
   - echo "テスト終了!"
 
 notifications:
